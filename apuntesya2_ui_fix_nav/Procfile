@@ -1,0 +1,1 @@
+web: gunicorn apuntesya2.app:app --timeout 120 --workers 2 --worker-tmp-dir /dev/shm
